@@ -16,6 +16,7 @@ Greenfield is a minimal ruby web app skeleton.
 ```
 git clone https://github.com/jch/greenfield
 cd greenfield
+bundle install
 rake setup
 ```
 
