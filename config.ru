@@ -4,6 +4,7 @@ Bundler.setup :default, (ENV['RACK_ENV'] || 'development').to_sym
 require 'sprockets'
 require 'compass'
 require 'sprockets-sass'
+require 'sprockets-helpers'
 require 'bootstrap-sass'
 require 'handlebars_assets'
 require 'coffee-script'

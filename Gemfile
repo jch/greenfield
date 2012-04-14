@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem 'rake'
 gem 'sprockets'
 gem 'sprockets-sass'
+gem 'sprockets-helpers'
 gem 'sass'
 gem 'compass'
 gem 'bootstrap-sass'

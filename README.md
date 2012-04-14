@@ -42,6 +42,24 @@ Vendorfile         # external assets
 
 For a full list, run `rake -D`
 
+## Referencing Image Assets
+
+The [sprockets-sass](https://github.com/petebrowne/sprockets-sass)
+and [sprockets-helpers](https://github.com/petebrowne/sprockets-helpers) gems
+provide helper to reference your assets.
+
+For example, to reference an image in your sass files:
+
+```css
+// put your images in assets/images
+.sidebar
+  background: url(asset-path('bg.png'))
+```
+
+If you prefer to put your assets in a different path, append another
+lookup path in config.ru.
+
+
 ## LICENSE
 
 Copyright (c) 2012, Jerry Cheung
