@@ -15,6 +15,7 @@ map '/assets' do
   environment.append_path 'assets/javascripts'
   environment.append_path 'assets/stylesheets'
   environment.append_path 'assets/templates' # for Handlebars templates
+  environment.append_path 'assets/images'
 
   environment.append_path HandlebarsAssets.path
   # Adds Twitter Bootstrap Javascripts
