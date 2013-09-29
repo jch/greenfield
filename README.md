@@ -1,5 +1,11 @@
 # Greenfield
 
+This was a fun experiment in composing different Ruby libraries into a web framework. Since writing this library, I've built many more standalone Sinatra applications and found I prefer just using it's standard tools. Sprockets is still awesome, but it's so easy to mount that it's not really worth a template to set it up. I used to love guard, but now I'm fine with running tests manually or having an editor hook instead of adding a project dependency. No more love for RSpec. Love live Test::Unit *cough* minitest *cough*.
+
+I'm archiving this here and hope someone finds it as useful as I did for learning.
+
+## Introduction
+
 Greenfield is a minimal ruby web app skeleton.
 
 ## Included Libraries
